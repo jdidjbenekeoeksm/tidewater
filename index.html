@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Tidewater · 潮汐岛</title>
+	<link rel="preload" as="image" href="ui/keyart-720.jpg" imagesrcset="ui/keyart-720.jpg 1280w, ui/keyart.jpg 2560w" imagesizes="100vw" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Caveat+Brush&family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
+	<style>html,body{background:#000;width:100%;height:100%;margin:0;padding:0;overflow:hidden}#app,#app canvas{display:block}#fps{z-index:50;color:#e8f6ff;pointer-events:none;-webkit-backdrop-filter:blur(8px);letter-spacing:.02em;background:#080e168c;border-radius:6px;padding:5px 9px;font:500 12px/1.2 JetBrains Mono,ui-monospace,monospace;position:fixed;top:10px;left:12px}</style>
+  <script type="module" crossorigin src="./assets/index-Bd-cND41.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/GPU-B9uyIp--.js">
+  <link rel="modulepreload" crossorigin href="./assets/Frame-lwQCaxD4.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-BBfTsu5f.css">
+</head>
+<body>
+	<div id="app"></div>
+	<div id="fps">-- fps</div>
+	<div id="loader" role="status" aria-live="polite" aria-label="正在加载 Tidewater">
+		<img class="loader-art" src="ui/keyart-720.jpg" srcset="ui/keyart-720.jpg 1280w, ui/keyart.jpg 2560w" sizes="100vw" alt="" decoding="async" fetchpriority="high" onload="this.classList.add('is-in')" />
+		<div class="loader-scrim"></div>
+		<div class="loader-inner">
+			<div class="loader-brand">
+				<p class="loader-kicker">一座小岛上的钓鱼生活</p>
+				<h1 class="loader-title">TIDEWATER</h1>
+				<p class="loader-tagline">开船出海，在礁石与深水中讨生活，天黑之前把渔获卖给乔。</p>
+			</div>
+			<div class="loader-panel">
+				<div class="loader-row">
+					<span class="loader-status">正在启动…</span>
+					<span class="loader-meta"><span class="loader-pct">0%</span><span class="loader-time">0:00</span></span>
+				</div>
+				<div class="loader-bar"><div class="loader-fill"></div><div class="loader-glint"></div></div>
+				<div class="loader-note">首次启动需要编译着色器，可能要一两分钟；之后再打开会快很多。<br>支持 Xbox 手柄：接上后所有按键提示会自动切换为手柄图标。</div>
+				<div class="loader-tips">
+					<span class="loader-tip-label">提示</span>
+					<div class="loader-tip-list">
+						<p class="loader-tip">按 <kbd>R</kbd> 取出鱼竿。按住鼠标左键蓄力，松开抛竿：按得越久抛得越远。</p>
+						<p class="loader-tip">盯住浮漂。先是几下试探，然后会被拖入水下：就在那一刻点击鼠标左键刺鱼。</p>
+						<p class="loader-tip">中鱼后按住左键收线，但要让张力保持在绿色区间。鱼发力时松手，否则会断线。</p>
+						<p class="loader-tip">什么鱼咬钩取决于钓点：浅滩、礁石区、陡坡外的深水，以及一天中的时段。</p>
+						<p class="loader-tip">码头鱼摊的乔收购你的渔获。鱼按重量计价，越大越值钱。</p>
+						<p class="loader-tip">船库的玛塔卖升级：更结实的鱼线、更快的渔轮、更大的鱼舱、更多燃油和探鱼器。</p>
+						<p class="loader-tip">在船边按 <kbd>E</kbd> 上船，在舵位按 <kbd>E</kbd> 掌舵，再按一次可以离开舵位在甲板上走动。</p>
+						<p class="loader-tip">按 <kbd>I</kbd> 打开保温箱和鱼类图鉴。装上玛塔的甲板灯就能夜钓。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
